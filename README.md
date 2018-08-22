@@ -1,6 +1,6 @@
 # online-presenter
 
-Ever wanted to present google slides online without screen sharing or asking your viewers to change to next slide on their side? This tool can help you! Your viewers will see new slide immediately when you'll change it on your side.
+Ever wanted to present google slides online without screen sharing or asking your viewers to change to the next slide on their side? This tool can help you! Your viewers will see new slide immediately when you'll change it on your side.
 
 ## Installation
 
