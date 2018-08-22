@@ -57,7 +57,7 @@ websocket '/ws/present/:name' => sub {
     });
 };
 
-# control websocker for presentation viewers
+# control websocket for presentation viewers
 websocket '/ws/view/:name' => sub {
     my $c = shift;
     $c->inactivity_timeout(300);
