@@ -66,7 +66,7 @@ websocket '/ws/view/:name' => sub {
     
     # immediately send slide number
     $c->send( $presentations{$p}{slide}||0 );
-    # and then id slide was changed
+    # and then if slide was changed
     my $cb = $events->on(slide => sub {
         my ($e, $name) = @_;
         
